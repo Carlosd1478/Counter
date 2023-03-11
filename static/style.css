@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 500px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    flex-direction:column;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.click {
+    background-color: blue;
+
+    color: white;
+    padding: 15px;
+} 
+
+.rest {
+    background-color: red;
+    color: white;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
